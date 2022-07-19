@@ -1,5 +1,5 @@
 
-#technical kafka cluster
+# technical kafka cluster
 
 This application is made for the technical challenge.
 To start the application, clone the reprository and run the following command:
