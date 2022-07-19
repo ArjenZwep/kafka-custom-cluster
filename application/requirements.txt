@@ -1,0 +1,5 @@
+kafka-python==2.0.2
+ndg-httpsclient
+pyopenssl
+pyasn1
+requests[security]
