@@ -1,7 +1,6 @@
 
 # technical kafka cluster
-
-This application is made for the technical challenge.
+Custom Kafka running in python.
 To start the application, clone the reprository and run the following command:
 
 
