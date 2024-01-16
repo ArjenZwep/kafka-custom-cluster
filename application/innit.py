@@ -12,7 +12,7 @@ time.sleep(30) #we give time for kafka image to innitalize #TODO ping container 
 format = "%(asctime)s: %(message)s"
 logging.basicConfig(format=format, level=logging.INFO,
                     datefmt="%H:%M:%S")
-bootstrap_server = 'kafka:9093' #setting internal bootstrap for dockerized application
+bootstrap_server = 'localhost:9092' #setting internal bootstrap for dockerized application
 
 #starting main logic line
 try:
