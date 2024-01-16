@@ -1,9 +1,9 @@
 import threading
 import logging
-from data_producer.message_producer import start_producers
+from batch_layer.data_producer.message_producer import start_producers
 import time
-from custom_consumer.consumer import innit_conusmers
-from data_producer.topic_creater import create_topics
+from serving_layer.custom_consumer.consumer import innit_conusmers
+from batch_layer.data_producer.topic_creater import create_topics
 from kafka.admin import KafkaAdminClient, NewTopic, NewPartitions
 
 
