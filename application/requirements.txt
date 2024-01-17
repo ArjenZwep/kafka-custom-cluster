@@ -5,5 +5,5 @@ pyasn1
 requests[security]
 pyspark
 websocket
-finnhub
+finnhub-python
 avro

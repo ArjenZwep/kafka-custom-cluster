@@ -78,4 +78,5 @@ class FinnhubProducer:
                 self.ws.send(f'{"type":"subscribe","symbol":"{ticker}"}')
 
 if __name__ == "__main__":
-    FinnhubProducer()
+    test_producer = FinnhubProducer()
+    test_producer.start_producer()
