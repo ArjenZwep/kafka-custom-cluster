@@ -11,7 +11,7 @@ class SparkConnector:
     def __init__(self, app_name):
         self.spark = SparkSession.builder.appName(app_name).getOrCreate()
 
-    def batch_process(self, csv: str) -> :
+    def batch_process(self, csv: str):
         batch_data = spark.read.csv(csv, header=True)
         # Perform batch processing (replace with your batch processing logic)
         batch_result = batch_data.groupBy("user").count()
