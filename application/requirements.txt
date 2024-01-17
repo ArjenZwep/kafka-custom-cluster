@@ -3,3 +3,4 @@ ndg-httpsclient
 pyopenssl
 pyasn1
 requests[security]
+pyspark
