@@ -1,15 +1,13 @@
-import json
 import finnhub
 import io
 import avro.schema
 import avro.io
-import ast
 
 class FinnhubUtility:
 
     def __init__(self, token, avro_schema_path, tickers, validate):
         self.finnhub_client = self.load_client(token)
-        #self.avro_schema = self.load_avro_schema(avro_schema_path)
+        self.avro_schema = self.load_avro_schema(avro_schema_path)
         #self.tickers = ast.literal_eval(tickers)
         self.validate = validate
 

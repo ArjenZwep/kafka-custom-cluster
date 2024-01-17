@@ -4,6 +4,7 @@ pyopenssl
 pyasn1
 requests[security]
 pyspark
-websocket
+websocket-client===0.57.0
 finnhub-python
 avro
+--upgrade certifi
