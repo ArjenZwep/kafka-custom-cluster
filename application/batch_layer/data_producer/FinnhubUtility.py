@@ -35,14 +35,3 @@ class FinnhubUtility:
         encoder = avro.io.BinaryEncoder(bytes_writer)
         writer.write(data, encoder)
         return bytes_writer.getvalue()
-
-# Example usage:
-finnhub_utility = FinnhubUtility(
-    token='your_finnhub_api_key',
-    kafka_server='your_kafka_server',
-    avro_schema_path='path_to_your_avro_schema_file.avsc'
-)
-
-# Now you can use the methods of the FinnhubUtility class
-# For example:
-ticker_exists = finnhub_utility.ticker_validator('AAPL')

@@ -4,3 +4,6 @@ pyopenssl
 pyasn1
 requests[security]
 pyspark
+websocket
+finnhub
+avro
