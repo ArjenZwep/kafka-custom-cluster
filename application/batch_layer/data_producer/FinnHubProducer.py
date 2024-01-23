@@ -61,7 +61,7 @@ class FinnhubProducer:
                 'type': message['type']
             }
         )
-        #self.producer.send(os.environ['KAFKA_TOPIC_NAME'], avro_message)
+        # self.producer.send(os.environ['KAFKA_TOPIC_NAME'], avro_message)
         self.producer.send('trades', avro_message)
 
     def on_error(self):
@@ -71,7 +71,7 @@ class FinnhubProducer:
         print("### closed ###")
 
     def on_open(self):
-        #open connection for getting binance finiance data
+        # open connection for getting binance finiance data
         self.ws.send('{"type":"subscribe","symbol":"BINANCE:BTCUSDT"}')
 
 

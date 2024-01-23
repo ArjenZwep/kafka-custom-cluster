@@ -18,6 +18,8 @@ We can see this in the application image where the producer and consumer are run
 In the logs you. We can now look on ```localhost:8084 ``` to see the topics and it's content.
 We want to see the end result inside the consumer_topic. You can explore the end data that has been streamed.
 
+##Speed layer
+Here we our producers to kafka, we use real
 ### Finnhub producer
 
 One of the custom producer is a connection to the finnhub real time financial data.
